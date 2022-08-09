@@ -17,6 +17,7 @@ const Thumbnail = forwardRef(({result}, ref) => {
             }
             height={1080}
             width={1920}
+            alt= "movie thumbnail"
         />
         <div className='p-2 cursor-pointer'>
             <p className="truncate max-w-md">{result.overview}</p>
